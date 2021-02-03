@@ -26,8 +26,8 @@ echo "...done"
 #Step 2
 airodump-ng -d $MAC1 -c $CHANNEL $INTERFACE_MON --ignore-negative-one
 airodump-ng -d $MAC2 -c $CHANNEL $INTERFACE_MON --ignore-negative-one
-#airodump-ng -d $MAC3 -c $CHANNEL $INTERFACE_MON
-#airodump-ng -d $MAC4 -c $CHANNEL $INTERFACE_MON
+#airodump-ng -d $MAC3 -c $CHANNEL $INTERFACE_MON --ignore-negative-one
+#airodump-ng -d $MAC4 -c $CHANNEL $INTERFACE_MON --ignore-negative-one
 
 
 #Step 3
